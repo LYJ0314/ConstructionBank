@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9145E27C1E57EB800082363F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E27B1E57EB800082363F /* main.m */; };
+		9145E27F1E57EB800082363F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E27E1E57EB800082363F /* AppDelegate.m */; };
+		9145E2821E57EB800082363F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E2811E57EB800082363F /* ViewController.m */; };
+		9145E2851E57EB800082363F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9145E2831E57EB800082363F /* Main.storyboard */; };
+		9145E2871E57EB800082363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9145E2861E57EB800082363F /* Assets.xcassets */; };
+		9145E28A1E57EB800082363F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9145E2881E57EB800082363F /* LaunchScreen.storyboard */; };
+		9145E2951E57EB800082363F /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E2941E57EB800082363F /* ________Tests.m */; };
+		9145E2A01E57EB800082363F /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E29F1E57EB800082363F /* ________UITests.m */; };
+		9145E2B51E57EBB10082363F /* buttonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E2AE1E57EBB10082363F /* buttonModel.m */; };
+		9145E2B61E57EBB10082363F /* CLCustomRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E2B01E57EBB10082363F /* CLCustomRotationGestureRecognizer.m */; };
+		9145E2B71E57EBB10082363F /* CLOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E2B21E57EBB10082363F /* CLOneViewController.m */; };
+		9145E2B81E57EBB10082363F /* CLRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145E2B41E57EBB10082363F /* CLRotationView.m */; };
+		9145E2BA1E57EED10082363F /* ButtonList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9145E2B91E57EED10082363F /* ButtonList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9145E2911E57EB800082363F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9145E26F1E57EB800082363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9145E2761E57EB800082363F;
+			remoteInfo = "模仿建设银行首页";
+		};
+		9145E29C1E57EB800082363F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9145E26F1E57EB800082363F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9145E2761E57EB800082363F;
+			remoteInfo = "模仿建设银行首页";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9145E2771E57EB800082363F /* 模仿建设银行首页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模仿建设银行首页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9145E27B1E57EB800082363F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9145E27D1E57EB800082363F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9145E27E1E57EB800082363F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9145E2801E57EB800082363F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9145E2811E57EB800082363F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9145E2841E57EB800082363F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9145E2861E57EB800082363F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9145E2891E57EB800082363F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9145E28B1E57EB800082363F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9145E2901E57EB800082363F /* 模仿建设银行首页Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模仿建设银行首页Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9145E2941E57EB800082363F /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		9145E2961E57EB800082363F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9145E29B1E57EB800082363F /* 模仿建设银行首页UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模仿建设银行首页UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9145E29F1E57EB800082363F /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		9145E2A11E57EB800082363F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9145E2AD1E57EBB10082363F /* buttonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buttonModel.h; sourceTree = "<group>"; };
+		9145E2AE1E57EBB10082363F /* buttonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = buttonModel.m; sourceTree = "<group>"; };
+		9145E2AF1E57EBB10082363F /* CLCustomRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCustomRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		9145E2B01E57EBB10082363F /* CLCustomRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCustomRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		9145E2B11E57EBB10082363F /* CLOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLOneViewController.h; sourceTree = "<group>"; };
+		9145E2B21E57EBB10082363F /* CLOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLOneViewController.m; sourceTree = "<group>"; };
+		9145E2B31E57EBB10082363F /* CLRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRotationView.h; sourceTree = "<group>"; };
+		9145E2B41E57EBB10082363F /* CLRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRotationView.m; sourceTree = "<group>"; };
+		9145E2B91E57EED10082363F /* ButtonList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ButtonList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9145E2741E57EB800082363F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9145E28D1E57EB800082363F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9145E2981E57EB800082363F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9145E26E1E57EB800082363F = {
+			isa = PBXGroup;
+			children = (
+				9145E2791E57EB800082363F /* 模仿建设银行首页 */,
+				9145E2931E57EB800082363F /* 模仿建设银行首页Tests */,
+				9145E29E1E57EB800082363F /* 模仿建设银行首页UITests */,
+				9145E2781E57EB800082363F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9145E2781E57EB800082363F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9145E2771E57EB800082363F /* 模仿建设银行首页.app */,
+				9145E2901E57EB800082363F /* 模仿建设银行首页Tests.xctest */,
+				9145E29B1E57EB800082363F /* 模仿建设银行首页UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9145E2791E57EB800082363F /* 模仿建设银行首页 */ = {
+			isa = PBXGroup;
+			children = (
+				9145E27D1E57EB800082363F /* AppDelegate.h */,
+				9145E27E1E57EB800082363F /* AppDelegate.m */,
+				9145E2801E57EB800082363F /* ViewController.h */,
+				9145E2811E57EB800082363F /* ViewController.m */,
+				9145E2AD1E57EBB10082363F /* buttonModel.h */,
+				9145E2AE1E57EBB10082363F /* buttonModel.m */,
+				9145E2AF1E57EBB10082363F /* CLCustomRotationGestureRecognizer.h */,
+				9145E2B01E57EBB10082363F /* CLCustomRotationGestureRecognizer.m */,
+				9145E2B11E57EBB10082363F /* CLOneViewController.h */,
+				9145E2B21E57EBB10082363F /* CLOneViewController.m */,
+				9145E2B31E57EBB10082363F /* CLRotationView.h */,
+				9145E2B41E57EBB10082363F /* CLRotationView.m */,
+				9145E2831E57EB800082363F /* Main.storyboard */,
+				9145E2861E57EB800082363F /* Assets.xcassets */,
+				9145E2881E57EB800082363F /* LaunchScreen.storyboard */,
+				9145E2B91E57EED10082363F /* ButtonList.plist */,
+				9145E28B1E57EB800082363F /* Info.plist */,
+				9145E27A1E57EB800082363F /* Supporting Files */,
+			);
+			path = "模仿建设银行首页";
+			sourceTree = "<group>";
+		};
+		9145E27A1E57EB800082363F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9145E27B1E57EB800082363F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9145E2931E57EB800082363F /* 模仿建设银行首页Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9145E2941E57EB800082363F /* ________Tests.m */,
+				9145E2961E57EB800082363F /* Info.plist */,
+			);
+			path = "模仿建设银行首页Tests";
+			sourceTree = "<group>";
+		};
+		9145E29E1E57EB800082363F /* 模仿建设银行首页UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9145E29F1E57EB800082363F /* ________UITests.m */,
+				9145E2A11E57EB800082363F /* Info.plist */,
+			);
+			path = "模仿建设银行首页UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9145E2761E57EB800082363F /* 模仿建设银行首页 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9145E2A41E57EB800082363F /* Build configuration list for PBXNativeTarget "模仿建设银行首页" */;
+			buildPhases = (
+				9145E2731E57EB800082363F /* Sources */,
+				9145E2741E57EB800082363F /* Frameworks */,
+				9145E2751E57EB800082363F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "模仿建设银行首页";
+			productName = "模仿建设银行首页";
+			productReference = 9145E2771E57EB800082363F /* 模仿建设银行首页.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9145E28F1E57EB800082363F /* 模仿建设银行首页Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9145E2A71E57EB800082363F /* Build configuration list for PBXNativeTarget "模仿建设银行首页Tests" */;
+			buildPhases = (
+				9145E28C1E57EB800082363F /* Sources */,
+				9145E28D1E57EB800082363F /* Frameworks */,
+				9145E28E1E57EB800082363F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9145E2921E57EB800082363F /* PBXTargetDependency */,
+			);
+			name = "模仿建设银行首页Tests";
+			productName = "模仿建设银行首页Tests";
+			productReference = 9145E2901E57EB800082363F /* 模仿建设银行首页Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9145E29A1E57EB800082363F /* 模仿建设银行首页UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9145E2AA1E57EB800082363F /* Build configuration list for PBXNativeTarget "模仿建设银行首页UITests" */;
+			buildPhases = (
+				9145E2971E57EB800082363F /* Sources */,
+				9145E2981E57EB800082363F /* Frameworks */,
+				9145E2991E57EB800082363F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9145E29D1E57EB800082363F /* PBXTargetDependency */,
+			);
+			name = "模仿建设银行首页UITests";
+			productName = "模仿建设银行首页UITests";
+			productReference = 9145E29B1E57EB800082363F /* 模仿建设银行首页UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9145E26F1E57EB800082363F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "李亚军";
+				TargetAttributes = {
+					9145E2761E57EB800082363F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9145E28F1E57EB800082363F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9145E2761E57EB800082363F;
+					};
+					9145E29A1E57EB800082363F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9145E2761E57EB800082363F;
+					};
+				};
+			};
+			buildConfigurationList = 9145E2721E57EB800082363F /* Build configuration list for PBXProject "模仿建设银行首页" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9145E26E1E57EB800082363F;
+			productRefGroup = 9145E2781E57EB800082363F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9145E2761E57EB800082363F /* 模仿建设银行首页 */,
+				9145E28F1E57EB800082363F /* 模仿建设银行首页Tests */,
+				9145E29A1E57EB800082363F /* 模仿建设银行首页UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9145E2751E57EB800082363F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9145E28A1E57EB800082363F /* LaunchScreen.storyboard in Resources */,
+				9145E2871E57EB800082363F /* Assets.xcassets in Resources */,
+				9145E2BA1E57EED10082363F /* ButtonList.plist in Resources */,
+				9145E2851E57EB800082363F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9145E28E1E57EB800082363F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9145E2991E57EB800082363F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9145E2731E57EB800082363F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9145E2B61E57EBB10082363F /* CLCustomRotationGestureRecognizer.m in Sources */,
+				9145E2821E57EB800082363F /* ViewController.m in Sources */,
+				9145E2B71E57EBB10082363F /* CLOneViewController.m in Sources */,
+				9145E2B51E57EBB10082363F /* buttonModel.m in Sources */,
+				9145E2B81E57EBB10082363F /* CLRotationView.m in Sources */,
+				9145E27F1E57EB800082363F /* AppDelegate.m in Sources */,
+				9145E27C1E57EB800082363F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9145E28C1E57EB800082363F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9145E2951E57EB800082363F /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9145E2971E57EB800082363F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9145E2A01E57EB800082363F /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9145E2921E57EB800082363F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9145E2761E57EB800082363F /* 模仿建设银行首页 */;
+			targetProxy = 9145E2911E57EB800082363F /* PBXContainerItemProxy */;
+		};
+		9145E29D1E57EB800082363F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9145E2761E57EB800082363F /* 模仿建设银行首页 */;
+			targetProxy = 9145E29C1E57EB800082363F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9145E2831E57EB800082363F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9145E2841E57EB800082363F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9145E2881E57EB800082363F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9145E2891E57EB800082363F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9145E2A21E57EB800082363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9145E2A31E57EB800082363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9145E2A51E57EB800082363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "模仿建设银行首页/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyajun.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9145E2A61E57EB800082363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "模仿建设银行首页/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyajun.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9145E2A81E57EB800082363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "模仿建设银行首页Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyajun.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/模仿建设银行首页.app/模仿建设银行首页";
+			};
+			name = Debug;
+		};
+		9145E2A91E57EB800082363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "模仿建设银行首页Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyajun.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/模仿建设银行首页.app/模仿建设银行首页";
+			};
+			name = Release;
+		};
+		9145E2AB1E57EB800082363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "模仿建设银行首页UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyajun.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "模仿建设银行首页";
+			};
+			name = Debug;
+		};
+		9145E2AC1E57EB800082363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "模仿建设银行首页UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyajun.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "模仿建设银行首页";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9145E2721E57EB800082363F /* Build configuration list for PBXProject "模仿建设银行首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9145E2A21E57EB800082363F /* Debug */,
+				9145E2A31E57EB800082363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9145E2A41E57EB800082363F /* Build configuration list for PBXNativeTarget "模仿建设银行首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9145E2A51E57EB800082363F /* Debug */,
+				9145E2A61E57EB800082363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9145E2A71E57EB800082363F /* Build configuration list for PBXNativeTarget "模仿建设银行首页Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9145E2A81E57EB800082363F /* Debug */,
+				9145E2A91E57EB800082363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9145E2AA1E57EB800082363F /* Build configuration list for PBXNativeTarget "模仿建设银行首页UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9145E2AB1E57EB800082363F /* Debug */,
+				9145E2AC1E57EB800082363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9145E26F1E57EB800082363F /* Project object */;
+}
